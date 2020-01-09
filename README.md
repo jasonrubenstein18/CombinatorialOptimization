@@ -1,3 +1,3 @@
-# CombinatorialOptimization
+# Optimization
 
-Combinatorial Optimization for fun
+Combinatorial and Discrete Optimization for fun
