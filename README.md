@@ -1,3 +1,3 @@
-# DiscreteOptimization
+# CombinatorialOptimization
 
 Combinatorial Optimization for fun
