@@ -5,7 +5,7 @@ import numpy as np
 import pstats
 import statistics
 
-os.chdir("/Users/jasonrubenstein/Downloads")
+os.chdir("...")
 
 # Read in payment data
 bbal_data = pd.read_csv("Fantrax-Players-The Diverse Dozen-115.csv", delimiter=',', encoding = "ISO-8859-1")
@@ -69,7 +69,3 @@ full = pd.DataFrame(lineup)
 full.columns = ['Player']
 
 full = pd.merge(full, bbal_data, how='left', on='Player')
-full.to_csv('/Users/jasonrubenstein/Downloads/optimal_lineup.csv')
-
-
-# bbal_data.to_csv('/Users/jasonrubenstein/Downloads/check.csv')
