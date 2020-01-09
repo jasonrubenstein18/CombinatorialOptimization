@@ -5,7 +5,7 @@ import numpy as np
 import pstats
 import statistics
 
-os.chdir("/Users/jasonrubenstein/Downloads")
+os.chdir("...")
 
 # Read in payment data
 baseball_data = pd.read_csv("BBal_WAR19.csv", delimiter=',', encoding = "ISO-8859-1")
@@ -93,7 +93,3 @@ full = pd.DataFrame(lineup)
 full.columns = ['Name']
 
 full = pd.merge(full, baseball_data, how='left', on='Name')
-full.to_csv('/Users/jasonrubenstein/Downloads/optimal_lineup.csv')
-
-
-# bbal_data.to_csv('/Users/jasonrubenstein/Downloads/check.csv')
